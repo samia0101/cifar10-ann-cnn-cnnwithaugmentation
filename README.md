@@ -24,11 +24,13 @@ The project is implemented using **Colab python and Keras**, and demonstrates ke
 ### 1. ANN (Artificial Neural Network)
 - Fully connected layers
 - Input flattened from 32x32x3
+- **Training epochs:** 5
 - Compared baseline accuracy with CNN
 
 ### 2. CNN (Convolutional Neural Network)
 - Two convolutional layers with ReLU activation and max pooling
 - Fully connected layers at the end
+- **Training epochs:** 10
 - Evaluated **without data augmentation**
 
 ### 3. CNN + Data Augmentation
@@ -37,6 +39,7 @@ The project is implemented using **Colab python and Keras**, and demonstrates ke
   - Width & height shifts (`0.1`)
   - Horizontal flip
   - Zoom (`0.1`)
+  - **Training epochs**: 20
 - Trained a fresh CNN on augmented data to evaluate improvement
 
 ---
@@ -69,4 +72,5 @@ The project is implemented using **Colab python and Keras**, and demonstrates ke
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/cifar10-ann-vs-cnn-with-augmentation.git
+   git clone https://github.com/samia0101/cifar10-ann-cnn-cnnwithaugmentation.git
+
