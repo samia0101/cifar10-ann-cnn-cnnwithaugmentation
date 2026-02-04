@@ -49,8 +49,8 @@ The project is implemented using **Colab python and Keras**, and demonstrates ke
 | Model | Test Accuracy |
 |-------|---------------|
 | ANN | 49% |
-| CNN (without augmentation) | 78% |
-| CNN (with augmentation) | 83% |
+| CNN (without augmentation) | 70% |
+| CNN (with augmentation) | 75% |
 
 **Observations:**
 - CNN outperforms ANN significantly due to convolutional feature extraction.
